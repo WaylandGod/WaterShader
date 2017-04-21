@@ -100,7 +100,7 @@ float4 SSR(sampler2D cameraImage, sampler2D zBuffer, float3 worldPos, float3 wor
 		float lDepth = LinearEyeDepth(UNITY_SAMPLE_DEPTH(tex2D(zBuffer, lClipPos.xy)));
 
 		if ((lClipPos.x > 1 || lClipPos.x < 0 || lClipPos.y > 1 || lClipPos.y < 0) && !closed) {
-			color = (0, 0, 0, 0);
+			color = float4(0, 0, 0, 0);
 			closed = true;
 		}
 

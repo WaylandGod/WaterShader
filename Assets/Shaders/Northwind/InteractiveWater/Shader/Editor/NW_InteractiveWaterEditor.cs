@@ -1,9 +1,9 @@
 ﻿using UnityEngine;
 using UnityEditor;
 using System;
-using Northwind.Editor.Shaders;
+using Northwind.Editors.Shaders;
 
-namespace Northwind.Shaders.InteractiveWater.Editor
+namespace Northwind.Shaders.InteractiveWater.Editors
 {
     public class NW_InteractiveWaterEditor : ShaderGUI
     {

@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEditor;
 
-namespace Northwind.Editor.Shaders
+namespace Northwind.Editors.Shaders
 {
     public static class MatEdit
     {

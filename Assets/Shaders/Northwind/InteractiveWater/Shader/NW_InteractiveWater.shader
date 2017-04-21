@@ -1,12 +1,4 @@
-﻿// Upgrade NOTE: replaced 'mul(UNITY_MATRIX_MVP,*)' with 'UnityObjectToClipPos(*)'
-
-// Upgrade NOTE: replaced 'mul(UNITY_MATRIX_MVP,*)' with 'UnityObjectToClipPos(*)'
-
-// Upgrade NOTE: replaced 'mul(UNITY_MATRIX_MVP,*)' with 'UnityObjectToClipPos(*)'
-
-// Upgrade NOTE: replaced 'mul(UNITY_MATRIX_MVP,*)' with 'UnityObjectToClipPos(*)'
-
-Shader "Northwind/InteractiveWater" {
+﻿Shader "Northwind/Interactive Water" {
 	Properties {
 		//Main
 		_OverlayTex("Overlay", 2D) = "clear" {}
@@ -108,9 +100,9 @@ Shader "Northwind/InteractiveWater" {
 
 		#define PI    3.14159265
 
-		#include "../Libs/noiseSimplex.cginc"
-		#include "../Libs/blur.cginc"
-		#include "../Libs/ssr.cginc"
+		#include "../../Libs/noiseSimplex.cginc"
+		#include "../../Libs/blur.cginc"
+		#include "../../Libs/ssr.cginc"
 
 		struct Input {
 			//Main

@@ -412,5 +412,5 @@
 		}
 		ENDCG
 	}
-	CustomEditor "Northwind.Editor.Shader.NW_InteractiveWaterEditor"
+	CustomEditor "Northwind.Shaders.InteractiveWater.Editors.NW_InteractiveWaterEditor"
 }
